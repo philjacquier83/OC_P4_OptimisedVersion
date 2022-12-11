@@ -83,6 +83,7 @@ a:hover {
 
 .bloc-bg-texture::before {
     content: "";
+    background: rgba(0, 0, 0, 0.2);
     background-size: 2px 2px;
     position: absolute;
     top: 0;
@@ -92,7 +93,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("../img/texture-paper.png");
+    background: rgba(0, 0, 0, 0.2), url("../img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -771,7 +772,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(146, 120, 50, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
